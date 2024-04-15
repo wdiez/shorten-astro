@@ -1,5 +1,6 @@
 ---
-import Short from "../components/Short.svelte"
+import Short from "../components/Short.svelte";
+import Nav from "../components/Nav.astro";
 ---
 
 <html lang="en">
@@ -11,6 +12,7 @@ import Short from "../components/Short.svelte"
 		<title>Astro</title>
 	</head>
 	<body>
+		<Nav></Nav>
 		<Short client:load />
 	</body>
 </html>
